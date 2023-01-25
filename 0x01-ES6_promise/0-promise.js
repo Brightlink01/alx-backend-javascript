@@ -1,3 +1,3 @@
 export default function getResponseAPI() {
-	return Promise.resolve();
+  return Promise.resolve();
 }
