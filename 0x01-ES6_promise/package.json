@@ -10,18 +10,23 @@
     "@babel/core": "^7.17.9",
     "@babel/node": "^7.8.0",
     "@babel/preset-env": "^7.16.11",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
     "babel-jest": "^27.5.1",
-    "eslint": "^6.8.0",
+    "eslint": "^8.32.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-config-standard-with-typescript": "^33.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-jest": "^22.17.0",
-    "jest": "^24.9.0"
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.1",
+    "jest": "^24.9.0",
+    "typescript": "^4.9.4"
   },
   "name": "0x01-es6_promise",
   "description": "",
   "version": "1.0.0",
   "main": ".eslintrc.js",
-  "dependencies": {},
   "author": "",
   "license": "ISC"
 }
