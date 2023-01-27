@@ -1,4 +1,3 @@
-export default function iterateThroughObject(reportWithIterator) {
-  return Object.split('|');
+export default function iterateThroughObject (reportWithIterator) {
+  return Object.split('|')
 }
-
