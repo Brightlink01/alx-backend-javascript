@@ -1,6 +1,6 @@
 import {
   uploadPhoto,
-  createUser'
+  createUser,
 } from './utils';
 
 export default function handleProfileSignup() {
