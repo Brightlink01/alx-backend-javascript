@@ -8,7 +8,7 @@ export default function handleProfileSignup() {
     .then((response) => {
       const { body } = response.shift();
       const { firstName, lastName } = response.pop();
-      console.log(`${body} ${firstName} ${lastName}`)
+      console.log(`${body} ${firstName} ${lastName}`);
     })
     .catch(() => console.log('Signup system offline'));
 }
