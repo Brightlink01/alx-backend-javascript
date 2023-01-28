@@ -2,8 +2,8 @@
 /* eslint-disable no-underscore-dangle */
 class HolbertonCourse {
   constructor(name = '', length = 0, students = []) {
-  if (typeof name !== 'string') {
-    throw TypeError('Name must be a string');
+    if (typeof name !== 'string') {
+      throw TypeError('Name must be a string');
     }
 
     if (typeof length !== 'number') {
