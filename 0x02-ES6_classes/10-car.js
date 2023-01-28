@@ -17,7 +17,7 @@ class Car {
   get color() {
     return this._color;
   }
- 
+
   cloneCar() {
     const NewCar = this.constructor || [Symbol.species];
     return new NewCar();
