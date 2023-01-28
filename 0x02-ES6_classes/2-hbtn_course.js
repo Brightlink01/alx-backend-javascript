@@ -1,55 +1,55 @@
 /* eslint-disable no-unreachable */
 /* eslint-disable no-underscore-dangle */
 class HolbertonCourse {
-    constructor(name = '', length = 0, students = []) {
-	if (typeof name !== 'string') {
-	    throw TypeError('Name must be a string');
-	}
-
-	if (typeof length !== 'number') {
-	    throw new TypeError('Length must be a number');
-	}
-
-	if (typeof students !== 'object') {
-	    throw TypeError('Students must be an array');
-	}
-
-	this._name = name;
-	this._length = length;
-	this._students = students;
+  constructor(name = '', length = 0, students = []) {
+  if (typeof name !== 'string') {
+    throw TypeError('Name must be a string');
     }
 
-    set name(name = '') {
-	if (typeof name !== 'string') {
-	    throw TypeError('Name must be a string');
-	}
-	this._name = name;
+    if (typeof length !== 'number') {
+      throw new TypeError('Length must be a number');
     }
 
-    get name() {
-	return this._name;
+    if (typeof students !== 'object') {
+      throw TypeError('Students must be an array');
     }
 
-    set length(length = 0) {
-	if (typeof length !== 'number') {
-	    throw new TypeError('Length must be a number');
-	}
-	this._length = length;
-    }
+    this._name = name;
+    this._length = length;
+    this._students = students;
+  }
 
-    get length() {
-	return this._length;
+  set name(name = '') {
+    if (typeof name !== 'string') {
+      throw TypeError('Name must be a string');
     }
+    this._name = name;
+  }
 
-    set students(students = []) {
-	if (typeof students !== 'object') {
-	    throw TypeError('Students must be an array');
-	}
-	this._students = students;
-    }
+  get name() {
+    return this._name;
+  }
 
-    get students() {
-	return this._students;
+  set length(length = 0) {
+    if (typeof length !== 'number') {
+      throw new TypeError('Length must be a number');
     }
+    this._length = length;
+  }
+
+  get length() {
+    return this._length;
+  }
+
+  set students(students = []) {
+    if (typeof students !== 'object') {
+      throw TypeError('Students must be an array');
+    }
+    this._students = students;
+  }
+
+  get students() {
+    return this._students;
+  }
 }
 export default HolbertonCourse;
